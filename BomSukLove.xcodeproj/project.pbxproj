@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8AE6E526FB47C60007187E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AE6E426FB47C60007187E /* AppDelegate.swift */; };
+		4F8AE6EF26FB47C60007187E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AE6EE26FB47C60007187E /* SceneDelegate.swift */; };
+		4F8AE6F126FB47C60007187E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AE6F026FB47C60007187E /* ViewController.swift */; };
+		4F8AE6F426FB47C60007187E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8AE6F226FB47C60007187E /* LaunchScreen.storyboard */; };
+		4F8AE6FF26FB47C70007187E /* BomSukLove Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4F8AE6FE26FB47C70007187E /* BomSukLove Extension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F8AE70426FB47C70007187E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AE70326FB47C70007187E /* SafariWebExtensionHandler.swift */; };
+		4F8AE70726FB47C70007187E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 4F8AE70626FB47C70007187E /* _locales */; };
+		4F8AE70926FB47C70007187E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4F8AE70826FB47C70007187E /* images */; };
+		4F8AE70B26FB47C70007187E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F8AE70A26FB47C70007187E /* manifest.json */; };
+		4F8AE70D26FB47C70007187E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F8AE70C26FB47C70007187E /* background.js */; };
+		4F8AE70F26FB47C70007187E /* injectPrice.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F8AE70E26FB47C70007187E /* injectPrice.js */; };
+		4F8AE71726FB47C70007187E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8AE6F826FB47C70007187E /* Assets.xcassets */; };
+		4F8AE72A26FB57160007187E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F8AE72C26FB57160007187E /* InfoPlist.strings */; };
+		4F8AE72F26FB572E0007187E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F8AE73126FB572E0007187E /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F8AE70026FB47C70007187E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F8AE6D926FB47C60007187E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F8AE6FD26FB47C70007187E;
+			remoteInfo = "BomSukLove Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F8AE71D26FB47C70007187E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F8AE6FF26FB47C70007187E /* BomSukLove Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F8AE6E126FB47C60007187E /* BomSukLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BomSukLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8AE6E426FB47C60007187E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F8AE6EE26FB47C60007187E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F8AE6F026FB47C60007187E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F8AE6F326FB47C60007187E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F8AE6F826FB47C70007187E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F8AE6F926FB47C70007187E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8AE6FE26FB47C70007187E /* BomSukLove Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BomSukLove Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8AE70326FB47C70007187E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		4F8AE70626FB47C70007187E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		4F8AE70826FB47C70007187E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		4F8AE70A26FB47C70007187E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		4F8AE70C26FB47C70007187E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		4F8AE70E26FB47C70007187E /* injectPrice.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = injectPrice.js; sourceTree = "<group>"; };
+		4F8AE71626FB47C70007187E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8AE72426FB47EC0007187E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4F8AE72B26FB57160007187E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F8AE73026FB572E0007187E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4F8AE73226FB57BE0007187E /* BomSukLove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BomSukLove.entitlements; sourceTree = "<group>"; };
+		4F8AE73326FB57BE0007187E /* BomSukLove Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BomSukLove Extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8AE6DE26FB47C60007187E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8AE6FB26FB47C70007187E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8AE6D826FB47C60007187E = {
+			isa = PBXGroup;
+			children = (
+				4F8AE6E326FB47C60007187E /* BomSukLove */,
+				4F8AE70226FB47C70007187E /* BomSukLove Extension */,
+				4F8AE6E226FB47C60007187E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8AE6E226FB47C60007187E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AE6E126FB47C60007187E /* BomSukLove.app */,
+				4F8AE6FE26FB47C70007187E /* BomSukLove Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8AE6E326FB47C60007187E /* BomSukLove */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AE73226FB57BE0007187E /* BomSukLove.entitlements */,
+				4F8AE6E426FB47C60007187E /* AppDelegate.swift */,
+				4F8AE6EE26FB47C60007187E /* SceneDelegate.swift */,
+				4F8AE6F026FB47C60007187E /* ViewController.swift */,
+				4F8AE6F226FB47C60007187E /* LaunchScreen.storyboard */,
+				4F8AE6F826FB47C70007187E /* Assets.xcassets */,
+				4F8AE6F926FB47C70007187E /* Info.plist */,
+				4F8AE72C26FB57160007187E /* InfoPlist.strings */,
+				4F8AE73126FB572E0007187E /* Localizable.strings */,
+			);
+			path = BomSukLove;
+			sourceTree = "<group>";
+		};
+		4F8AE70226FB47C70007187E /* BomSukLove Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AE73326FB57BE0007187E /* BomSukLove Extension.entitlements */,
+				4F8AE70326FB47C70007187E /* SafariWebExtensionHandler.swift */,
+				4F8AE71626FB47C70007187E /* Info.plist */,
+				4F8AE70526FB47C70007187E /* Resources */,
+			);
+			path = "BomSukLove Extension";
+			sourceTree = "<group>";
+		};
+		4F8AE70526FB47C70007187E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AE70626FB47C70007187E /* _locales */,
+				4F8AE70826FB47C70007187E /* images */,
+				4F8AE70A26FB47C70007187E /* manifest.json */,
+				4F8AE70C26FB47C70007187E /* background.js */,
+				4F8AE70E26FB47C70007187E /* injectPrice.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8AE6E026FB47C60007187E /* BomSukLove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8AE71E26FB47C70007187E /* Build configuration list for PBXNativeTarget "BomSukLove" */;
+			buildPhases = (
+				4F8AE6DD26FB47C60007187E /* Sources */,
+				4F8AE6DE26FB47C60007187E /* Frameworks */,
+				4F8AE6DF26FB47C60007187E /* Resources */,
+				4F8AE71D26FB47C70007187E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F8AE70126FB47C70007187E /* PBXTargetDependency */,
+			);
+			name = BomSukLove;
+			productName = BomSukLove;
+			productReference = 4F8AE6E126FB47C60007187E /* BomSukLove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F8AE6FD26FB47C70007187E /* BomSukLove Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8AE71A26FB47C70007187E /* Build configuration list for PBXNativeTarget "BomSukLove Extension" */;
+			buildPhases = (
+				4F8AE6FA26FB47C70007187E /* Sources */,
+				4F8AE6FB26FB47C70007187E /* Frameworks */,
+				4F8AE6FC26FB47C70007187E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BomSukLove Extension";
+			productName = "BomSukLove Extension";
+			productReference = 4F8AE6FE26FB47C70007187E /* BomSukLove Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8AE6D926FB47C60007187E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					4F8AE6E026FB47C60007187E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					4F8AE6FD26FB47C70007187E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 4F8AE6DC26FB47C60007187E /* Build configuration list for PBXProject "BomSukLove" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ko,
+				Base,
+			);
+			mainGroup = 4F8AE6D826FB47C60007187E;
+			productRefGroup = 4F8AE6E226FB47C60007187E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8AE6E026FB47C60007187E /* BomSukLove */,
+				4F8AE6FD26FB47C70007187E /* BomSukLove Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8AE6DF26FB47C60007187E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8AE6F426FB47C60007187E /* LaunchScreen.storyboard in Resources */,
+				4F8AE72F26FB572E0007187E /* Localizable.strings in Resources */,
+				4F8AE72A26FB57160007187E /* InfoPlist.strings in Resources */,
+				4F8AE71726FB47C70007187E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8AE6FC26FB47C70007187E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8AE70D26FB47C70007187E /* background.js in Resources */,
+				4F8AE70926FB47C70007187E /* images in Resources */,
+				4F8AE70B26FB47C70007187E /* manifest.json in Resources */,
+				4F8AE70726FB47C70007187E /* _locales in Resources */,
+				4F8AE70F26FB47C70007187E /* injectPrice.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8AE6DD26FB47C60007187E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8AE6F126FB47C60007187E /* ViewController.swift in Sources */,
+				4F8AE6E526FB47C60007187E /* AppDelegate.swift in Sources */,
+				4F8AE6EF26FB47C60007187E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8AE6FA26FB47C70007187E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8AE70426FB47C70007187E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F8AE70126FB47C70007187E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 4F8AE6FD26FB47C70007187E /* BomSukLove Extension */;
+			targetProxy = 4F8AE70026FB47C70007187E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F8AE6F226FB47C60007187E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8AE6F326FB47C60007187E /* Base */,
+				4F8AE72426FB47EC0007187E /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4F8AE72C26FB57160007187E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8AE72B26FB57160007187E /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F8AE73126FB572E0007187E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8AE73026FB572E0007187E /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F8AE71826FB47C70007187E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F8AE71926FB47C70007187E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F8AE71B26FB47C70007187E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BomSukLove Extension/BomSukLove Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BomSukLove Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BomSukLove Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.BomSukLove.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8AE71C26FB47C70007187E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BomSukLove Extension/BomSukLove Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BomSukLove Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BomSukLove Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.BomSukLove.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F8AE71F26FB47C70007187E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BomSukLove/BomSukLove.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BomSukLove/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BomSukLove;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.BomSukLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8AE72026FB47C70007187E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BomSukLove/BomSukLove.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BomSukLove/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BomSukLove;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.BomSukLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8AE6DC26FB47C60007187E /* Build configuration list for PBXProject "BomSukLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8AE71826FB47C70007187E /* Debug */,
+				4F8AE71926FB47C70007187E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8AE71A26FB47C70007187E /* Build configuration list for PBXNativeTarget "BomSukLove Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8AE71B26FB47C70007187E /* Debug */,
+				4F8AE71C26FB47C70007187E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8AE71E26FB47C70007187E /* Build configuration list for PBXNativeTarget "BomSukLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8AE71F26FB47C70007187E /* Debug */,
+				4F8AE72026FB47C70007187E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8AE6D926FB47C60007187E /* Project object */;
+}
